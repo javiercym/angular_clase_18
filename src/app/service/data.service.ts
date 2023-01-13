@@ -14,4 +14,8 @@ export class DataService {
   GetAll():Observable<string[]>{
     return this.http.get<string[]>(this.url);
   }
+
+  // GetAll(){
+  //   return this.http.get()
+  // }
 }

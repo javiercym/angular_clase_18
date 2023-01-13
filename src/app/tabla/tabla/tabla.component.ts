@@ -15,4 +15,7 @@ export class TablaComponent implements OnInit {
   ngOnInit(): void {
     this.data.GetAll().subscribe( data => this.input = data);
   }
+  // ngOnInit(): void {
+    
+  // }
 }

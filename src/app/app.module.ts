@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TablaModule } from './tabla/tabla.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TablaModule } from './tabla/tabla.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    TablaModule
+    TablaModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

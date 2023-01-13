@@ -1,15 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TablaComponent } from './tabla/tabla.component';
+import { DetalleComponent } from './detalle/detalle.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
-    TablaComponent
+    TablaComponent,
+    DetalleComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     TablaComponent
