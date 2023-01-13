@@ -1,0 +1,18 @@
+<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">userId</th>
+        <th scope="col">id</th>
+        <th scope="col">title</th>
+        <th scope="col">completed</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of input">
+          <th scope="row">{{item.userId}}</th>
+          <td>{{item.id}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.completed}}</td>
+        </tr>
+    </tbody>
+</table>
